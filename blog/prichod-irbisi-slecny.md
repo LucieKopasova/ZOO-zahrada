@@ -1,8 +1,14 @@
 ---
 layout: layouts/clanek.njk
-title: Příchod irbisí slečny
-perex: Do naší zoo dorazila velká kočkovitá šelma, je jí samice levharta sněžného jménem Tierra z německé Zoo Dresden, která v dubnu oslaví dva roky. Kvůli cestě do nového domova absolvovala přípravu, kdy jí chovatelé předem dávali do expozice přepravní box s krmením, aby si samice zvykla do něj v klidu vlézt.
 tags: blog
+title: Příchod irbisí slečny
+date: 2024-01-29T17:48:12.496Z
+foto: /images/uploads/312970999_1012214160178963_4329913267034978759_n.jpg
+perex: Do naší zoo dorazila velká kočkovitá šelma, je jí samice levharta
+  sněžného jménem Tierra z německé Zoo Dresden, která v dubnu oslaví dva roky.
+  Kvůli cestě do nového domova absolvovala přípravu, kdy jí chovatelé předem
+  dávali do expozice přepravní box s krmením, aby si samice zvykla do něj v
+  klidu vlézt.
 ---
 
 Text nahoře převzat ze zoousti.cz.
