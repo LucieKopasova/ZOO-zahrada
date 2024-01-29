@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: main
 media_folder: "images/uploads"
+slug:
+  encoding: "ascii"
+  clean_accents: true
 collections:
   - name: "blog" # Jaká bude cesta ke kolekci v administraci,např. /admin/collections/novinky
     label: "Blog" # Jak se kolekce jmenuje v UI administrace
@@ -9,7 +12,7 @@ collections:
     create: true # Uživatel může přidávat nové stránky/příspěvky (nebo false, pokud nemůže)
     slug: "{{slug}}" # Šablona jmen souborů, např. YYYY-MM-DD-title.md
     fields: # Pole, která budeme editovat. Obvykle data uložená ve front matter
-      - { label: "Šablona", name: "layout", widget: "hidden", default: "layouts/clanek.njk"}
+      - { label: "Šablona", name: "layout", widget: "hidden", default: "layouts/clanek.njk" }
       - { label: "Tags", name: "tags", widget: "string", default: "blog" }
       - { label: "Titulek", name: "title", widget: "string" }
       - { label: "Datum publikace", name: "date", widget: "datetime" }
