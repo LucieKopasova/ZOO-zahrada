@@ -7,6 +7,9 @@ module.exports = function (eleventyConfig) {
   // Zkopírovat css/ to _site/css/
   eleventyConfig.addPassthroughCopy("css");
 
+  // admin složka pro Netlify . CNS
+  eleventyConfig.addPassthroughCopy("admin");
+
   // Zkopírovat všechny *.js soubory na stejné umístění do _site
   // eleventyConfig.addPassthroughCopy("**/*.js");
 
